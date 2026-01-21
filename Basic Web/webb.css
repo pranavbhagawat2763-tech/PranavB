@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Courier New';
 }
@@ -11,20 +12,97 @@ h1{
 #login{
 background-color: white;
 }
+
 #signup{
 background-color: #b92b27;
 color: white;
 }
 .up{
-background-color: green;
-color: aliceblue;
+background-color: yellow;
+color: black;
 }
 #myId p{
     color: green;
     font-size: larger;
     font-weight: bold;
 }
-p a{
-    color: purple;
-    background-color: yellow;
+
+nav ul li a{
+    color: black;
+    background-color: #E19898;
 }
+p+h3{
+    text-decoration: underline;
+}
+.up + button{
+    background-color: blue;
+    color: white;
+}
+
+input[type="text"]{
+    color: red;
+    
+}
+input[type="text"]:hover{
+    color: black;
+    background-color: #0C7779;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+.pp{
+    color: black;
+}
+h1{
+    color: pink;
+}
+div.hi h1.pp{
+    color: yellow;
+}
+.hi.pp{
+    color: black;
+}
+.hi hi.pp{
+    color: yellow;
+}
+#login:hover{
+    color: white;
+
+    background-color: black;
+}
+.up:hover{
+    background-color: red;
+    color: white;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+div>input{
+    color: black;
+    background-color: #ECECEC;
+}
+#aa:active{
+    font-weight: 500;
+    color: blue;
+    
+}
+p:active{
+    color: red;
+
+}
+input[type ="radio"]:checked+label{
+  color: red;
+  font-weight: bold;
+}
+
+ div:nth-last-of-type{
+    background-color: yellow;
+ }
+ .post:nth-last-of-type(2n-1){
+    background-color: yellow;
+ }
