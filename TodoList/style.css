@@ -7,8 +7,7 @@
 
 body{
     min-height:100vh;
-    /* background: linear-gradient(135deg, #ff4b5c, #ff005d, #b4006f); */
-    background-color: #B8DB80;
+     background: linear-gradient(135deg, #ff4b5c, #ff005d, #b4006f); 
     display:flex;
     justify-content:center;
     align-items:center;
@@ -114,3 +113,4 @@ h2:hover{
     color: #5A0E24;
 
 }
+
