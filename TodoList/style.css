@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    min-height:100vh;
+    /* background: linear-gradient(135deg, #ff4b5c, #ff005d, #b4006f); */
+    background-color: #B8DB80;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.app{
+    width:600px;
+}
+
+/* Input Card */
+.input-card{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    display:flex;
+    gap:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.input-card input{
+    flex:1;
+    border:none;
+    outline:none;
+    border-bottom:2px solid #ddd;
+    font-size:16px;
+    padding:10px 5px;
+}
+
+.input-card button{
+    background:#ff8c42;
+    border:none;
+    color:#fff;
+    padding:10px 25px;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* Task Card */
+.task-card{
+    background:#fff;
+    margin-top:30px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.task{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.task:last-child{
+    border-bottom:none;
+}
+
+.actions{
+    display:flex;
+    gap:12px;
+}
+
+.edit{
+    background:#2e1a73;
+    color:#fff;
+    width:35px;
+    height:35px;
+    border-radius:6px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:16px;
+}
+.edit:hover{
+    background-color: orange;
+}
+
+.delete{
+    background:#F39EB6;
+    color:#fff;
+    width:35px;
+    height:35px;
+    border-radius:6px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-size:16px;
+}
+.delete:hover{
+    background: black;
+}
+#btn:hover{
+    background-color: black;
+}
+h2{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
