@@ -9,11 +9,11 @@ h1{
     font-family: 'Courier New', Courier, monospace;
 }
 #searchbtn{
-    background-color: black;
+    background-color: orange;
     color: white;
 }
 .userbtn:hover{
-    background-color: black;
+    background-color: orange;
     color: white ;
 }
 #searchbtn:hover{
@@ -26,5 +26,6 @@ h1{
 
 }
 body{
-    background-color: #EBF4DD;
+    background-color: #3F9AAE;
+
 }
