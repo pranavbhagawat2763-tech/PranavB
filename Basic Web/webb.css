@@ -106,3 +106,13 @@ input[type ="radio"]:checked+label{
  .post:nth-last-of-type(2n-1){
     background-color: yellow;
  }
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+
