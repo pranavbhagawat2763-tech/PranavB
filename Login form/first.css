@@ -56,16 +56,16 @@ img{
     border-radius: 50%;
 }
 body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    background: linear-gradient(
-  to bottom,
-  #FF8A8A,
-  #FFC6A5,
-  #CFF5E7,
-  #FFF3C7,
-  #FF9AA2
-);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
 
 }
+
 
 
