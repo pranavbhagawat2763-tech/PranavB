@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Industrial Visit Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Industrial Visit Registration</h2>
+
+    <form id="visitForm">
+        <label>Student Name</label>
+        <input type="text" id="name" placeholder="Enter full name">
+
+        <label>Roll Number</label>
+        <input type="text" id="roll" placeholder="Enter roll number">
+
+        <label>Company Selection</label>
+        <select id="company">
+            <option value="">-- Select Company --</option>
+            <option>TCS</option>
+            <option>Infosys</option>
+            <option>Wipro</option>
+            <option>Reliance</option>
+        </select>
+
+        <label>Visit Date</label>
+        <input type="date" id="date">
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
