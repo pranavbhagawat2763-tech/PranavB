@@ -7,8 +7,8 @@ document.getElementById("visitForm").addEventListener("submit", function(e) {
     let date = document.getElementById("date").value;
 
     if (name === "" || roll === "" || company === "" || date === "") {
-        alert("All fields are mandatory!");
+        alert("Hello pranav nice to meet you ");
     } else {
-        alert("Registration Successful!");
+        alert("registration successful!");
     }
 });
