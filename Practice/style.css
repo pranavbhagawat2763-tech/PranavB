@@ -126,17 +126,136 @@ a:hover{
     align-content: center;
     justify-items: center;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
 }
 
 /* Search input */
 .Input-S {
-    width: 580px;
-    height: 44px;
+    width: 800px;
+    height: 48px;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
     padding: 0 20px;
     font-size: 16px;
     outline: none;
+}
+/* ===== GOOGLE STYLE SEARCH BAR ===== */
+
+.search-wrapper {
+    width: 746px;
+    height: 48px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    gap: 12px;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.25);
+}
+
+.search-icon {
+    color: #5f6368;
+    font-size: 16px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.right-icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.right-icons i {
+    color: #5f6368;
+    cursor: pointer;
+}
+
+/* AI MODE BUTTON */
+.ai-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid #dadce0;
+    font-size: 14px;
+    color: #3c4043;
+    cursor: pointer;
+}
+
+.ai-btn i {
+    font-size: 14px;
+}
+
+/* Hover like Google */
+.search-wrapper:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+
+/* ===== SHORTCUTS SECTION ===== */
+
+.shortcuts {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shortcut p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: white;
+}
+
+/* CIRCLE ICON */
+.shortcut-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    background-color: #5f6368;
+}
+
+/* COLOR VARIANTS */
+.shortcut-icon.blue {
+    background-color: #1a73e8;
+}
+
+.shortcut-icon.dark {
+    background-color: #3c4043;
+}
+
+.shortcut-icon.gray {
+    background-color: #5f6368;
+}
+
+.shortcut-icon.add {
+    background-color: #3c4043;
+}
+
+/* Hover effect like Chrome */
+.shortcut:hover .shortcut-icon {
+    background-color: #6b6f75;
 }
