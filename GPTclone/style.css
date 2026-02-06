@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.Main{
+      display: flex;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #212121;
+}
+
+.sidebar{
+    background-color: black;
+    width: 270px;
+    height: 100%;
+    margin-right: 0.5rem;
+    margin-left: -0.8rem;
+    /* border-radius: 1rem; */
+    /*16px */
+}
+.main-content {
+    background-color: #121212;
+    /* border-radius: 1rem; */
+    /*16px */
+    overflow: auto;
+    flex: 1;
+    padding: 0.5rem 1.5rem 0 1.5rem;
+    height: 100%;
+    margin-right: -0.8rem;
+    margin-top: -0.8;
+
+
+}
