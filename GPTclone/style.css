@@ -64,7 +64,6 @@ body {
 .GptIcon {
     height: 30px;
     width: 30px;
-    /* margin-top: 0.5rem; */
 }
 
 .footer {
@@ -95,25 +94,7 @@ body {
     margin-top: -1rem;
 }
 
-/* .op1{
-    height: 50px;
-    width: 100%;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    right: 100px;
-    top: 60px;
-    font-size: small;
-}
 
-.edit{
-
-} */
-
-/* .namegpt{
-    margin-top: -1.4rem;
-    margin-left: 1.75rem;
-} */
 .op1 {
     display: inline;
     align-items: center;
@@ -151,9 +132,11 @@ body {
     margin: aut;
 }
 
+.option2 {
+    margin-top: 1rem;
+    display: inline-block;
 
-
-
+}
 .edit1{
      width: 25px;
     height: 25px;
