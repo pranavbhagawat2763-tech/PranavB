@@ -5,9 +5,7 @@ body {
     color: yellow;
     overflow: hidden;
 }
-body{
-    color: #000;
-}
+
 
 .Main {
     display: flex;
