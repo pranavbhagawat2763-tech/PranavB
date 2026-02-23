@@ -7,7 +7,9 @@ body {
 }
 
 
-
+#text1{
+    color: yellow;
+}
 .sidebar {
     display: flex;
     justify-content: center;
